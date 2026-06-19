@@ -202,3 +202,83 @@ body {
   color: #7c3aed;
   margin-bottom: 10px;
 }
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #7c3aed;
+}
+.registration-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.registration-card {
+  width: 280px;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.registration-card h3 {
+  color: #7c3aed;
+  margin-bottom: 10px;
+}
+.admin-input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.dark {
+  background: #111827;
+  color: white;
+  min-height: 100vh;
+}
+
+.dark .event-card,
+.dark .registration-card,
+.dark .modal-content,
+.dark .search-bar {
+  background: #1f2937;
+  color: white;
+}
+
+.dark .search-bar {
+  border: 1px solid #374151;
+}
+
+.dark-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.nav-links a:hover {
+  color: #7c3aed;
+  transform: scale(1.05);
+}
+
+.registration-card button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: crimson;
+  color: white;
+  cursor: pointer;
+}
+
+.registration-card button:hover {
+  opacity: 0.9;
+}
