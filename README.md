@@ -110,15 +110,6 @@ http://localhost:5173
 
 
 
- Future Enhancements
-
-* Backend Integration
-* User Authentication
-* Database Connectivity
-* Email Notifications
-* Event Category Filters
-
-
 Repository Link
 
 https://github.com/Manasapinjala/college-event-management-system
